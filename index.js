@@ -108,7 +108,7 @@ async function getTweets(handle, from, to, cursor) {
   try {
     const res = await axios({
       method: "post",
-      url: "https://m9vll5cwha.execute-api.us-west-2.amazonaws.com/default/twitter-search-api",
+      url: "your-api",
       data: {
         handle,
         from,
