@@ -9,6 +9,7 @@ async function fetchSearch(handle, from, to, cursor) {
     if (cursor) {
       url = url + `${url}&cursor=${cursor}`;
     }
+    // TODO: you'll need to paste your own fetch call here from the network tab. find the api call (url above) and copy request as node fetch and paste it here.
     const res = await fetch(url, {
       headers: {
         accept: "*/*",
