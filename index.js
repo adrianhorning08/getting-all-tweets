@@ -37,13 +37,9 @@ async function getUserInfo(handle) {
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-site",
-        "x-csrf-token":
-          "ea397805968139f050c08884544c3b9743367d1a37bad77d36824d640e38ed9403f987fce5c43ae064f2fd40ec8db03b0a87d82426c099ca809964d4226fbb20debb46f0c389c98e5740a758a7f17d95",
         "x-twitter-active-user": "yes",
         "x-twitter-auth-type": "OAuth2Session",
         "x-twitter-client-language": "en",
-        cookie:
-          'guest_id=v1%3A166803171024129386; kdt=ZP5XlOfEjDdHaNLUvRHqcvJAtgXfwdtvxHoggj7a; twid=u%3D4520241209; d_prefs=MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw; des_opt_in=Y; auth_token=3425af932477ea053d33eca4a2cfcbece2df3672; ct0=ea397805968139f050c08884544c3b9743367d1a37bad77d36824d640e38ed9403f987fce5c43ae064f2fd40ec8db03b0a87d82426c099ca809964d4226fbb20debb46f0c389c98e5740a758a7f17d95; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCMqWd1uFAToMY3NyZl9p%250AZCIlZmYzYmQyY2MwZTZlMTNkYmRjYzA2NzkwMThjZTRhODc6B2lkIiU0N2Jh%250AMjIxODIyMmZmNjg3Y2M5MWRkMDZlMDliMGRhNg%253D%253D--2bc1519573d0612e87c600cbfacdbd0e3ec78dec; guest_id_marketing=v1%3A166803171024129386; guest_id_ads=v1%3A166803171024129386; personalization_id="v1_kZBm43eVfVEsri52EC0dyA=="',
         Referer: "https://twitter.com/",
         "Referrer-Policy": "strict-origin-when-cross-origin",
       },
